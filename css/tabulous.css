@@ -1,0 +1,48 @@
+/**
+ * @author wangjunping
+ */
+
+*{margin: 0; padding: 0;}
+
+ul, li{list-style: none;}
+
+#tab_list ul li{
+	float: left;
+	background: #fefefe;
+	background: -moz-linear-gradient(top, #fefefe, #ededed);	
+	background: -o-linear-gradient(left top,left bottom, from(#fefefe), to(#ededed));
+	background: -webkit-gradient(linear,left top,left bottom, from(#fefefe), to(#ededed));
+	border: 1px solid #ccc;
+	padding: 10px 0;
+	width: 100px;
+	text-align: center;
+	margin-left: -1px;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+#content_list{
+	top: 45px;
+	position: relative;
+	border-bottom: 1px solid red;
+}
+
+#content_list .content{
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	width: 100%;
+}
+
+#tab_list ul .curr{
+	border-bottom: none;
+	background: #fff;
+}
+
+#content_list .curr{
+	position: absolute;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	width: 100%;
+	margin: 20px;
+}
