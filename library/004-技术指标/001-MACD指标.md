@@ -26,6 +26,7 @@ MACD指标由diff、dea、macd三个子指标构成。
 **公式：**  
 >![equation](http://bit.ly/2hUI2No)  
 >![](http://www.sciweavers.org/tex2img.php?eq=dea%20%3D%20ema%28diff%2C%20dea%5C_len%29&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+
 **参数：**  
 >dea_len：ema窗口长度，默认值：9。
 
