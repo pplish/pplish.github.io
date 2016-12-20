@@ -17,7 +17,7 @@ MACD指标由DIF、DEA、MACD三个子指标构成。
 ### 一、DIF  
 **公式：**  
 >![equation](http://www.sciweavers.org/tex2img.php?eq=DIF%3DEMA%28close%2C%20N1%29%20-%20EMA%28close%2C%20N2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)  
-
+12
 **参数：**  
 >N1、N2。
 
