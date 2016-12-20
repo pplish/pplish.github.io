@@ -16,22 +16,22 @@
 MACD指标由diff、dea、macd三个子指标构成。  
 ### diff  
 **公式：**  
->![equation](http://bit.ly/2hUJXBI)  
+>![equation](http://bit.ly/2hUJXBI)
 
 **参数：**  
->diff_len_short：diff中短ema的窗口长度，默认值：12。  
->diff_len_long：diff中长ema的窗口长度，默认值：26。
+>diff_len_short：短ema的窗口长度，默认值：12。  
+>diff_len_long：长ema的窗口长度，默认值：26。
 
 ### dea
 **公式：**  
->![equation](http://bit.ly/2hUI2No)    
+>![equation](http://bit.ly/2hUI2No)
 
 **参数：**  
->dea_len：计算dea的窗口长度，默认值：9。
+>dea_len：ema窗口长度，默认值：9。
 
 ### macd
 **公式：**  
->![equation](http://bit.ly/2hD6zcn)    
+>![equation](http://bit.ly/2hD6zcn)
 
 **参数：**  
 >无。
