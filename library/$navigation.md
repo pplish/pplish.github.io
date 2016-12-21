@@ -47,6 +47,7 @@
 - [PriceOSC指标](?file=004-技术指标/018-PriceOSC指标 "PriceOSC指标")
 - [OBV指标](?file=004-技术指标/019-OBV指标 "OBV指标")
 - [PVT指标](?file=004-技术指标/020-PVT指标 "PVT指标")
+- [VMACD指标](?file=004-技术指标/021-VMACD指标 "VMACD指标")
 
 ##### 开发者文档
 - [获取技术指标](?file=101-开发者文档/010-获取技术指标 "获取技术指标")
