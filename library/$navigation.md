@@ -30,3 +30,5 @@
 - [MACD指标](?file=004-技术指标/001-MACD指标 "MACD指标")
 - [CCI指标](?file=004-技术指标/002-CCI指标 "CCI指标")
 - [OSC指标](?file=004-技术指标/003-OSC指标 "OSC指标")
+- [ROC指标](?file=004-技术指标/004-ROC指标 "ROC指标")
+- [VROC指标](?file=004-技术指标/005-VROC指标 "VROC指标")
