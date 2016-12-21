@@ -3,6 +3,8 @@
 
 
 ## 计算公式
+VROC指标由vroc、vroc_ma、vroc_ema三个子指标构成。
+
 ### vroc
 **公式：**  
 >![equation](http://www.sciweavers.org/upload/Tex2Img_1482284771/render.png)
