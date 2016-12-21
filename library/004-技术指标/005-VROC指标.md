@@ -7,21 +7,21 @@ VROC指标由vroc、vroc_ma、vroc_ema三个子指标构成。
 
 ### vroc
 **公式：**  
->![equation](http://www.sciweavers.org/upload/Tex2Img_1482284771/render.png)
+>![equation](http://www.sciweavers.org/tex2img.php?eq=vroc%20%3D%20100%20%2A%20%28vol%20%2F%20vol%28-vroc%5C_delta%29%20-%201%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 **参数：**  
 >vroc_delta：交易量偏移长度，默认值：12。
 
 ### vroc_ma
 **公式：**  
->![equation](http://www.sciweavers.org/upload/Tex2Img_1482284877/render.png)
+>![equation](http://www.sciweavers.org/tex2img.php?eq=vroc%5C_ma%20%3D%20ma%28vroc%2C%20vroc%5C_ma%5C_len%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 **参数：**  
 >vroc_ma_len：ma窗口长度，默认值：6。
 
 ### vroc_ema
 **公式：**  
->![equation](http://www.sciweavers.org/upload/Tex2Img_1482284953/render.png)
+>![equation](http://www.sciweavers.org/tex2img.php?eq=vroc%5C_ema%20%3D%20ema%28vroc%2C%20vroc%5C_ema%5C_len%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 **参数：**  
 >vroc_ema_len：ema窗口长度，默认值：6。
