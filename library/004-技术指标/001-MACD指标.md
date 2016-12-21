@@ -1,5 +1,5 @@
 # MACD
-**指数平滑异同移动平均线**（Moving Average Convergence / Divergence, **MACD**）是股票交易中一种常见的技术分析工具，由Gerald Appel于1970年代提出，用于研判股票价格变化的强度、方向、能量，以及趋势周期，以便把握股票买进和卖出的时机。MACD指标由一组曲线与图形组成，通过收盘时股价或指数的快变及慢变的指数移动平均值（EMA）之间的差计算出来。“快”指更短时段的EMA，而“慢”则指较长时段的EMA，最常用的是12及26日EMA。  
+**指数平滑异同移动平均线**（Moving Average Convergence / Divergence, **MACD**）是股票交易中一种常见的技术分析工具，由Gerald Appel于1970年代提出，用于研判股票价格变化的强度、方向、能量，以及趋势周期，以便把握股票买进和卖出的时机。MACD指标由一组曲线与图形组成，通过收盘时股价或指数的快变及慢变的指数移动平均值（EMA）之间的差计算出来。“快”指较短时段的EMA，而“慢”则指较长时段的EMA，最常用的是12及26日EMA。  
 
 >1. [计算公式](#计算公式 "计算公式")
 	1. [diff](#diff "diff")
@@ -16,23 +16,22 @@
 MACD指标由diff、dea、macd三个子指标构成。  
 ### diff  
 **公式：**  
->![equation](http://bit.ly/2hUJXBI)
+>![equation](http://www.sciweavers.org/upload/Tex2Img_1482237596/render.png)
 
 **参数：**  
 >diff_len_short：短ema窗口长度，默认值：12。  
 >diff_len_long：长ema窗口长度，默认值：26。
 
 ### dea
-**公式：**  
->![equation](http://bit.ly/2hUI2No)  
->![](http://www.sciweavers.org/tex2img.php?eq=dea%20%3D%20ema%28diff%2C%20dea%5C_len%29&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+**公式：**   
+>![equation](http://www.sciweavers.org/upload/Tex2Img_1482234585/eqn.png)  
 
 **参数：**  
 >dea_len：ema窗口长度，默认值：9。
 
 ### macd
 **公式：**  
->![equation](http://bit.ly/2hD6zcn)
+>![equation](http://www.sciweavers.org/upload/Tex2Img_1482237805/render.png)
 
 **参数：**  
 >无。
