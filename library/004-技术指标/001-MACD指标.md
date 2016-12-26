@@ -16,7 +16,7 @@
 MACD指标由diff、dea、macd三个子指标构成。  
 ### diff  
 **公式：**  
->![equation](http://www.sciweavers.org/tex2img.php?eq=diff%20%3D%20ema%28close%2C%20diff%5C_len%5C_short%29%20-%20ema%28close%2C%20diff%5C_len%5C_long%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+>![equation](http://latex.codecogs.com/gif.latex?diff%5C%2C%3D%5C%2Cema%28close%2C%5C%2Cdiff%5C_len%5C_short%29%5C%2C-%5C%2Cema%28close%2C%5C%2Cdiff%5C_len%5C_long%29)
 
 **参数：**  
 >diff_len_short：短ema窗口长度，默认值：12。  
@@ -24,15 +24,14 @@ MACD指标由diff、dea、macd三个子指标构成。
 
 ### dea
 **公式：**   
->![equation](http://www.sciweavers.org/tex2img.php?eq=dea%20%3D%20ema%28diff%2C%20dea%5C_len%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
+>![equation](http://latex.codecogs.com/gif.latex?dea%5C%2C%3D%5C%2Cema%28diff%2C%5C%2Cdea%5C_len%29)
 
 **参数：**  
 >dea_len：ema窗口长度，默认值：9。
 
 ### macd
 **公式：**  
->![equation](http://www.sciweavers.org/tex2img.php?eq=macd%20%3D%20%28diff%20-%20dea%29%20%2A%202&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+>![equation](http://latex.codecogs.com/gif.latex?macd%5C%2C%3D%5C%2C%28diff%5C%2C-%5C%2Cdea%29%5C%2C*%5C%2C2)
 
 **参数：**  
 >无。
